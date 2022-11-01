@@ -21,7 +21,7 @@ export default function Home() {
       email
     }
 
-    const response = await fetch('/api/submit',{
+    const response = await fetch('https://form-gsheet.vercel.app/api/submit',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
